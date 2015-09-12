@@ -63,7 +63,7 @@
     MKLocalSearch *sourceSearch = [[MKLocalSearch alloc] initWithRequest:sourceReq];
     [sourceSearch startWithCompletionHandler:^(MKLocalSearchResponse *response, NSError *error) {
         
-        if (error || ![response.mapItems count]) {
+        if (error || ![response.mapItems count] || !outstandingRequests) {
             if (self.callback)
                 self.callback(responses);
             return;

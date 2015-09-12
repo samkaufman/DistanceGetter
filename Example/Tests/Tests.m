@@ -7,28 +7,62 @@
 //
 
 @import XCTest;
+#import <DistanceGetter/DGDistanceRequest.h>
+
 
 @interface Tests : XCTestCase
 
 @end
 
+
 @implementation Tests
 
-- (void)setUp
+- (void)testGetsEmptyResultsGivenNoLocations
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    XCTestExpectation *expectation = [self expectationWithDescription:@"DGDistanceRequest calls back"];
+    __block NSArray *returnedDistances;
+    
+    // Kick off request
+    NSString *src = @"San Francisco, CA";
+    NSArray *locs = @[];
+    DGDistanceRequest *req = [[DGDistanceRequest alloc] initWithLocationDescriptions:locs sourceDescription:src];
+    req.callback = ^(NSArray *distances) {
+        returnedDistances = distances;
+        [expectation fulfill];
+    };
+    [req start];
+    
+    // Wait for return and do assertions
+    [self waitForExpectationsWithTimeout:60.0 handler:^(NSError *error) {
+        XCTAssertNil(error);
+        XCTAssertEqual([returnedDistances count], 0);
+    }];
 }
 
-- (void)tearDown
+- (void)testGetsSaneReturnsFromSanFrancisco
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTestExpectation *expectation = [self expectationWithDescription:@"DGDistanceRequest calls back"];
+    __block NSArray *returnedDistances;
+    
+    // Kick off request
+    NSString *src = @"San Francisco, CA";
+    NSArray *locs = @[@"Tucson, AZ", @"London"];
+    DGDistanceRequest *req = [[DGDistanceRequest alloc] initWithLocationDescriptions:locs sourceDescription:src];
+    req.callback = ^(NSArray *distances) {
+        returnedDistances = distances;
+        [expectation fulfill];
+    };
+    [req start];
+    
+    // Wait for return and do assertions
+    [self waitForExpectationsWithTimeout:60.0 handler:^(NSError *error) {
+        XCTAssertNil(error);
+        XCTAssertEqual([returnedDistances count], 2);
+        XCTAssertNotEqual(returnedDistances[0], [NSNull null]);
+        XCTAssertNotEqual(returnedDistances[1], [NSNull null]);
+        XCTAssertEqualWithAccuracy([returnedDistances[0] doubleValue], 1224000.0, 50000.0);
+        XCTAssertEqualWithAccuracy([returnedDistances[1] doubleValue], 8.6116e6, 10000.0);
+    }];
 }
 
 @end
