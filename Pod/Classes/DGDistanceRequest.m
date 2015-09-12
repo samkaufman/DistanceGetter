@@ -64,8 +64,10 @@
     [sourceSearch startWithCompletionHandler:^(MKLocalSearchResponse *response, NSError *error) {
         
         if (error || ![response.mapItems count] || !outstandingRequests) {
-            if (self.callback)
+            if (self.callback) {
                 self.callback(responses);
+                self.callback = nil;
+            }
             return;
         }
         
@@ -90,6 +92,7 @@
                 // If this was the last one, let's send our response array to the caller
                 if (!outstandingRequests && self.callback) {
                     self.callback([NSArray arrayWithArray:responses]);
+                    self.callback = nil;
                 }
             }];
         }];
