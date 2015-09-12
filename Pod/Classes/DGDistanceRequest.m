@@ -54,15 +54,16 @@
     __block NSUInteger outstandingRequests = [descs count];
     NSMutableArray *responses = [NSMutableArray arrayWithCapacity:[descs count]];
     for (int i = 0; i < [descs count]; i++)
-        [responses addObject:[NSNull null]];
+        [responses addObject:@(-1)];
     
     // Kick off source query
     MKLocalSearchRequest *sourceReq = [MKLocalSearchRequest new];
     sourceReq.naturalLanguageQuery = self.sourceDescription;
     
     MKLocalSearch *sourceSearch = [[MKLocalSearch alloc] initWithRequest:sourceReq];
+    
     [sourceSearch startWithCompletionHandler:^(MKLocalSearchResponse *response, NSError *error) {
-        
+                
         if (error || ![response.mapItems count] || !outstandingRequests) {
             if (self.callback) {
                 self.callback(responses);

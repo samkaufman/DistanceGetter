@@ -58,6 +58,8 @@
     [self waitForExpectationsWithTimeout:60.0 handler:^(NSError *error) {
         XCTAssertNil(error);
         XCTAssertEqual([returnedDistances count], 2);
+        XCTAssertNotEqual(returnedDistances[0], @(-1));
+        XCTAssertNotEqual(returnedDistances[1], @(-1));
         XCTAssertNotEqual(returnedDistances[0], [NSNull null]);
         XCTAssertNotEqual(returnedDistances[1], [NSNull null]);
         XCTAssertEqualWithAccuracy([returnedDistances[0] doubleValue], 1224000.0, 50000.0);
