@@ -1,12 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
 use_frameworks!
 
-target 'DistanceGetter_Example', :exclusive => true do
+target 'DistanceGetter_Example' do
   pod "DistanceGetter", :path => "../"
 end
 
-target 'DistanceGetter_Tests', :exclusive => true do
+target 'DistanceGetter_Tests' do
   pod "DistanceGetter", :path => "../"
-
-  
 end

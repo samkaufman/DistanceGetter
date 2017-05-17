@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AFF1236C88C29BC5D83A15B /* Pods_DistanceGetter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94D13E2287F2E6156E4F233 /* Pods_DistanceGetter_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		731981AD83E8F84ECDB2A1DB /* Pods_DistanceGetter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372C7F0249F3B3DB7491FFFE /* Pods_DistanceGetter_Tests.framework */; };
+		79EE5C331ECD1519000DA78F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EE5C321ECD1519000DA78F /* Launch Screen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		979A856BFC704AEC96E8195B /* Pods_DistanceGetter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA1D99AA68C87EB6D4EB9C7 /* Pods_DistanceGetter_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A6652BDBD52F48F2A71B6F9A /* Pods_DistanceGetter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFB58F8EA236FF6397FA6B0 /* Pods_DistanceGetter_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CA1D99AA68C87EB6D4EB9C7 /* Pods_DistanceGetter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistanceGetter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B74E70E4FD5224A505EEEC1 /* Pods-DistanceGetter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Tests/Pods-DistanceGetter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BFB58F8EA236FF6397FA6B0 /* Pods_DistanceGetter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistanceGetter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		372C7F0249F3B3DB7491FFFE /* Pods_DistanceGetter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistanceGetter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DistanceGetter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceGetter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,14 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6ED90FF3CF9B43B8419E814A /* Pods-DistanceGetter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		75D6F7EA6DBA4A39BDD6D9A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		79EE5C321ECD1519000DA78F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8525421D9F1EF685F67EDDE8 /* DistanceGetter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DistanceGetter.podspec; path = ../DistanceGetter.podspec; sourceTree = "<group>"; };
-		8564D11660375D0649121B85 /* Pods-DistanceGetter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B872A3B9CCE4E5EB731C6D0B /* Pods-DistanceGetter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C94D13E2287F2E6156E4F233 /* Pods_DistanceGetter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistanceGetter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD516016F9287A8C0B1F2663 /* Pods-DistanceGetter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Tests/Pods-DistanceGetter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2184A83BFA7491C91471397 /* Pods-DistanceGetter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C38E4C22D0DD75C78BE3D056 /* Pods-DistanceGetter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Tests/Pods-DistanceGetter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3FB8B4B9E47FE5BA9854741 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED65FEB0A92738C867981446 /* Pods-DistanceGetter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceGetter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceGetter_Tests/Pods-DistanceGetter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4AFF1236C88C29BC5D83A15B /* Pods_DistanceGetter_Example.framework in Frameworks */,
+				A6652BDBD52F48F2A71B6F9A /* Pods_DistanceGetter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +88,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				979A856BFC704AEC96E8195B /* Pods_DistanceGetter_Tests.framework in Frameworks */,
+				731981AD83E8F84ECDB2A1DB /* Pods_DistanceGetter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		003AFDF55627998D3894472A /* Pods */ = {
+		1FDB94C9CB57FB44CFA0D371 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B872A3B9CCE4E5EB731C6D0B /* Pods-DistanceGetter_Example.debug.xcconfig */,
-				8564D11660375D0649121B85 /* Pods-DistanceGetter_Example.release.xcconfig */,
-				2B74E70E4FD5224A505EEEC1 /* Pods-DistanceGetter_Tests.debug.xcconfig */,
-				CD516016F9287A8C0B1F2663 /* Pods-DistanceGetter_Tests.release.xcconfig */,
+				6ED90FF3CF9B43B8419E814A /* Pods-DistanceGetter_Example.debug.xcconfig */,
+				C2184A83BFA7491C91471397 /* Pods-DistanceGetter_Example.release.xcconfig */,
+				ED65FEB0A92738C867981446 /* Pods-DistanceGetter_Tests.debug.xcconfig */,
+				C38E4C22D0DD75C78BE3D056 /* Pods-DistanceGetter_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -112,7 +114,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				003AFDF55627998D3894472A /* Pods */,
+				1FDB94C9CB57FB44CFA0D371 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C94D13E2287F2E6156E4F233 /* Pods_DistanceGetter_Example.framework */,
-				0CA1D99AA68C87EB6D4EB9C7 /* Pods_DistanceGetter_Tests.framework */,
+				2BFB58F8EA236FF6397FA6B0 /* Pods_DistanceGetter_Example.framework */,
+				372C7F0249F3B3DB7491FFFE /* Pods_DistanceGetter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,6 +146,7 @@
 				6003F59C195388D20070C39A /* DGAppDelegate.h */,
 				6003F59D195388D20070C39A /* DGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				79EE5C321ECD1519000DA78F /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* DGViewController.h */,
 				6003F5A6195388D20070C39A /* DGViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -200,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DistanceGetter_Example" */;
 			buildPhases = (
-				64CEEC61BAF1E5E66D9EC713 /* Check Pods Manifest.lock */,
+				1AD0D8CB5B2BFFF6D23F6BD8 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E32289188F9DE93045682BAD /* Embed Pods Frameworks */,
-				AB4EBF5F96C8F93162125EE9 /* Copy Pods Resources */,
+				516C5CC26CA0D8E243679516 /* [CP] Embed Pods Frameworks */,
+				375DAF95FA270B19E4ED7026 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DistanceGetter_Tests" */;
 			buildPhases = (
-				39213482974C01E81C3D1790 /* Check Pods Manifest.lock */,
+				B306779100043F0D8B8174C7 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D3AEE75AB30792F94C032C07 /* Embed Pods Frameworks */,
-				7E7BA1CC2ED46B2948AD5F9C /* Copy Pods Resources */,
+				2DCD5F735AEC029CF9E7D22F /* [CP] Embed Pods Frameworks */,
+				041011C49EFB4A85D9FAE01D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +250,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sam Kaufman";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2CN7C64NW8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -278,6 +284,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				79EE5C331ECD1519000DA78F /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,44 +300,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39213482974C01E81C3D1790 /* Check Pods Manifest.lock */ = {
+		041011C49EFB4A85D9FAE01D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		64CEEC61BAF1E5E66D9EC713 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7E7BA1CC2ED46B2948AD5F9C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,29 +315,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceGetter_Tests/Pods-DistanceGetter_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB4EBF5F96C8F93162125EE9 /* Copy Pods Resources */ = {
+		1AD0D8CB5B2BFFF6D23F6BD8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D3AEE75AB30792F94C032C07 /* Embed Pods Frameworks */ = {
+		2DCD5F735AEC029CF9E7D22F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,19 +345,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceGetter_Tests/Pods-DistanceGetter_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E32289188F9DE93045682BAD /* Embed Pods Frameworks */ = {
+		375DAF95FA270B19E4ED7026 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		516C5CC26CA0D8E243679516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceGetter_Example/Pods-DistanceGetter_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B306779100043F0D8B8174C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -466,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -508,14 +515,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B872A3B9CCE4E5EB731C6D0B /* Pods-DistanceGetter_Example.debug.xcconfig */;
+			baseConfigurationReference = 6ED90FF3CF9B43B8419E814A /* Pods-DistanceGetter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2CN7C64NW8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DistanceGetter/DistanceGetter-Prefix.pch";
 				INFOPLIST_FILE = "DistanceGetter/DistanceGetter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -524,14 +531,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8564D11660375D0649121B85 /* Pods-DistanceGetter_Example.release.xcconfig */;
+			baseConfigurationReference = C2184A83BFA7491C91471397 /* Pods-DistanceGetter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2CN7C64NW8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DistanceGetter/DistanceGetter-Prefix.pch";
 				INFOPLIST_FILE = "DistanceGetter/DistanceGetter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -540,7 +547,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B74E70E4FD5224A505EEEC1 /* Pods-DistanceGetter_Tests.debug.xcconfig */;
+			baseConfigurationReference = ED65FEB0A92738C867981446 /* Pods-DistanceGetter_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -563,7 +570,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD516016F9287A8C0B1F2663 /* Pods-DistanceGetter_Tests.release.xcconfig */;
+			baseConfigurationReference = C38E4C22D0DD75C78BE3D056 /* Pods-DistanceGetter_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
