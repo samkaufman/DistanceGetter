@@ -63,7 +63,7 @@
         XCTAssertNotEqual(returnedDistances[0], [NSNull null]);
         XCTAssertNotEqual(returnedDistances[1], [NSNull null]);
         XCTAssertEqualWithAccuracy([returnedDistances[0] doubleValue], 1224000.0, 50000.0);
-        XCTAssertEqualWithAccuracy([returnedDistances[1] doubleValue], 8.6116e6, 10000.0);
+        XCTAssertEqualWithAccuracy([returnedDistances[1] doubleValue], 8629000.0, 10000.0);
     }];
 }
 
